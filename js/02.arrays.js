@@ -33,3 +33,4 @@ const tecnologias = [
 ];
 
 console.log(tecnologias[0][1]); // CSS3
+console.log(tecnologias[1][3]); // Python
