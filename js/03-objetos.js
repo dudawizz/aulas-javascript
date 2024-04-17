@@ -28,11 +28,13 @@ const carro = {
     fabricacao: 2015,
     portas: 4,
     cor: "Verde Musgo",
-    opcionais: ["ar-condicionado", " vidros elétricos", " alarmes" ]
+    
+    // Propriedade como Array
+    opcionais: ["ar-condicionado", "vidros elétricos", " alarmes" ]
 };
 
 console.log(carro);
 
 console.log(
-    `O ${carro.modelo} da marca ${carro.marca} foi fabricado em ${carro.fabricacao} com ${carro.portas} portas. Sua cor mais chamativa é o ${carro.cor} que era extremamente famoso. Ele contém ${carro.opcionais} ` 
+    `O ${carro.modelo} da marca ${carro.marca} foi fabricado em ${carro.fabricacao} com ${carro.portas} portas. Sua cor mais chamativa é o ${carro.cor} que era extremamente famoso. Ele contém ${carro.opcionais[1]}. ` 
 );
