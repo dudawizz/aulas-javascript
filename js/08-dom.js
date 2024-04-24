@@ -64,3 +64,18 @@ backEnd.style.textAlign = "center"
 
 // Aplicação de classes CSS via JavaScript
 titulo.classList.add("destaque")
+
+const listaDeEditores = [
+    {
+        nome: "Visual Studio Code",
+        finalidade: "Desenvolvimento Web em geral"
+    }
+    {
+        nome: "Android Studio",
+        finalidade: "Desenvolvimento de aplicações Android"
+    }
+    {
+        nome: "Xcode",
+        finalidade: "Desenvolvimento de aplicações IOS"
+    }
+]
