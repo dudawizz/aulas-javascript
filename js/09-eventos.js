@@ -60,13 +60,26 @@ botao.addEventListener("click", function(){
     divContainer.style.transition = "1s"
     // transição para modo claro e escuro
 
-    function mudarTexto(){
-        var botao = document.getElementById("noturno")
-
-        if (botao.innerText = "Ativar" ) {
-            
-        }
-
+    /* Se o texto escrito no botão for "Ativar"... */
+    if ( botao.textContent == "Ativar" ) {
+        // ... então. mude para "Desativar"
+        botao.textContent = "Desativar"
+    } else {
+        // ... senão, volte para "Ativar"
+        botao.textContent = "Ativar"
     }
 
 });
+
+/* Sobre duplo sinal de igual == 
+e o triplo sinal de ===
+
+==      IGUALDADE  (considera somente valor)
+===     IGUALDADE ESTRITA  (considera valor E tipo de dado)
+
+*/
+
+let a = 10;
+let b = "10";
+console.log(a == b); // true (verdadeiro)
+console.log(a === b ); // false (falso)
